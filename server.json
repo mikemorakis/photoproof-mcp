@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.photoproof/mcp",
+  "title": "photoproof.io",
+  "description": "Ask an AI about your photo galleries and client picks, or create a new gallery.",
+  "version": "1.0.0",
+  "websiteUrl": "https://photoproof.io/mcp?utm_source=mcp-registry",
+  "icons": [
+    {
+      "src": "https://photoproof.io/logo-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    },
+    {
+      "src": "https://photoproof.io/icon-192.png",
+      "mimeType": "image/png",
+      "sizes": ["192x192"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://photoproof.io/mcp"
+    }
+  ]
+}
